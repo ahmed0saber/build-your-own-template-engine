@@ -1,0 +1,5 @@
+<p>My name is <{ name }>, I'm a <{ title }>.</p>
+<p>I'm <{ isAvaliable ? (currently looking for a new job) : (not open to work) }>.</p>
+<div>
+    <{ skills => (<p>#skills</p>) }>
+</div>
